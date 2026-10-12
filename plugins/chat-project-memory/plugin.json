@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Samut"
+  },
+  "description": "Proactively tracks project progress, confirms uncertain completions, and captures future ideas in the current conversation.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "สรุปว่าโปรเจกต์นี้ทำถึงไหนแล้ว",
+          "อัปเดตสิ่งที่ทำเสร็จและงานที่ต้องทำต่อ",
+          "ทำจุดบันทึกโปรเจกต์ไว้กลับมาทำต่อในแชทนี้"
+        ],
+        "developerName": "Samut",
+        "displayName": "บันทึกโปรเจกต์ในแชท",
+        "longDescription": "Proactively keep a concise project checkpoint from the current conversation, capture future ideas separately from active work, confirm uncertain completions briefly, and suggest the next action. No external services or APIs.",
+        "shortDescription": "Keep project progress in chat"
+      }
+    }
+  },
+  "name": "chat-project-memory",
+  "version": "0.3.1"
+}
+
