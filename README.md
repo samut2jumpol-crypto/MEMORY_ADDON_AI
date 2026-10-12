@@ -19,8 +19,7 @@
 3. เปิดแอป desktop ใหม่ ไปที่ Plugins เลือกแหล่ง Project Memory Trial และติดตั้ง
 4. เปิดแชท แล้วพิมพ์ @ เลือก “บันทึกโปรเจกต์ในแชท”
 
-หลังเผยแพร่ repo แล้ว ผู้ทดลองสามารถใช้ `codex plugin marketplace add OWNER/REPO`
-โดยแทน OWNER/REPO ด้วยตำแหน่ง repo จริง
+ผู้ทดลองสามารถใช้ `codex plugin marketplace add samut2jumpol-crypto/MEMORY_ADDON_AI`
 GitHub repo marketplaces ไม่ใช่รายการปลั๊กอินสาธารณะของ ChatGPT และการรองรับต่างกันตามแอป
 
 คู่มือ OpenAI:
@@ -53,3 +52,4 @@ GitHub repo marketplaces ไม่ใช่รายการปลั๊กอ�
 ## การเผยแพร่
 ชุดนี้เตรียมสำหรับทดลองและลง GitHub ยังไม่ได้ส่งเข้ารายการปลั๊กอินสาธารณะ
 ยังไม่ได้กำหนดสัญญาอนุญาตโอเพนซอร์ส
+
